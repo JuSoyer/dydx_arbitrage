@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+dydx-v3-rust = { git = "https://github.com/junta/dydx-v3-rust" }
+tokio = { version = "1.18.2", features = ["full"] }
+dotenv = "0.15.0"
+web3 = "0.19.0"
