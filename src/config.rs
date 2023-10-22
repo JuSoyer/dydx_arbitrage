@@ -1,7 +1,7 @@
 
 
 //constants
-pub const MODE: &str = "DEVELOPMENT";
+pub const MODE: &str = "PRODUCTION";
 //Close all open positions and order
 pub const ABORT_ALL_POSITIONS: bool = true;
 //Find cointegrated pairs
